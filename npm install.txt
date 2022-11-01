@@ -2,4 +2,27 @@ npm install @material-ui/core @material-ui/icons @material-ui/lab @react-google-
 
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material
+npm i @react-google-maps/api
+npm i google-map-react
+npm i axios
 
+---------------------------------
+AppBar
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import InputBase from '@mui/material/InputBase';
+
+CssBaseline
+import CssBaseline from '@mui/material/CssBaseline';
+
+Grid
+import Grid from '@mui/material/Grid';
+
+styles.js
+import { makeStyles } from '@mui/styles';
+
+... in the component:
+import useStyles from "./styles";
+  const classes = useStyles();
